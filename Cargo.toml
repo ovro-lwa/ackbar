@@ -1,0 +1,12 @@
+[package]
+name = "ackbar"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+yew = { version = "0.20.0", features = ["csr"] }
+plotly = { version = "0.8.3", features = ["wasm", "plotly_ndarray"] }
+anyhow = "1.0"
+yew-hooks = "0.2.0"
